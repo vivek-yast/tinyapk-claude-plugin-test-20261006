@@ -1,0 +1,14 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "tinyapk-local",
+  "description": "Temporary local TinyAPK plugin marketplace for Claude Desktop verification.",
+  "owner": { "name": "TinyAPK" },
+  "plugins": [
+    {
+      "name": "tinyapk",
+      "description": "Use TinyAPK MCP tools for the connected TinyAPK account.",
+      "source": "./plugins/tinyapk",
+      "category": "productivity"
+    }
+  ]
+}
